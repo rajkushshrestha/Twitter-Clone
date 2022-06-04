@@ -1,0 +1,139 @@
+body{
+    background-color: white;
+}
+.Image{
+    display: block;
+    background: none;
+}
+img.new{
+   position: relative;
+   float: left;
+   width: 810px;
+   height: 745px;
+}
+img.white{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 500px;
+    height: 500px;
+    filter: brightness(1000%);
+    
+}
+img.logo2{
+    width: 80px;
+    height: auto;
+    margin-left: 2%;
+}
+p.happen{
+    font-size:350%;
+    font-weight: 900;
+    font-family:  Verdana,  "Segoe UI",  Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-right: 10%;
+
+}
+p.join{
+    font-size: 31px;
+    text-align: center;
+    font-family:  Verdana,  "Segoe UI",  Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-right: 20%;
+}
+.search{
+    justify-items: center;
+}
+form{
+    margin: 0;
+}
+.box{
+    text-align: center;
+    margin-right: 25%;
+}
+input{
+    border-radius: 20px;
+    padding: 10px 10px;
+    outline: none; 
+    width: 20%; 
+}
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.search2{
+    justify-items: center;
+}
+form{
+    margin: 0;
+}
+.box2{
+    text-align: center;
+    margin-right: 25%;
+}
+input{
+    border-radius: 20px;
+    padding: 10px 10px;
+    outline: none; 
+    width: 20%;  
+    text-align: center;
+    font-size: medium; 
+    font: bolder;
+    font-weight: 700;
+    margin-left: 2%;
+}
+input::placeholder{
+    color: black;
+}
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+p2.or {
+    overflow: hidden;
+    text-align: center;
+    margin-left: 4%;
+}
+p2:before,
+p2:after {
+    background-color: rgb(238, 227, 227);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 7%;
+}
+div.search3{
+    justify-items: center;
+    margin-top: 1%;
+}
+.search3 input{
+    text-align: center;
+    background-color: rgb(9, 187, 246);
+    font-size: medium;
+    font-weight: 550;
+    border: none;
+    margin-left: 2%;
+    cursor: pointer;
+    
+}
+.search3 input::placeholder{
+    color: white;
+}
+div.text{
+    font-size: small;
+    text-align: center;
+    margin-right: 11%;
+}
+.account{
+    font-size: larger;
+    text-align: center;
+    margin-right: 28%;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.sign{
+    border: white;
+}
